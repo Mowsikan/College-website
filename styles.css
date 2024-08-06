@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: 1rem;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.max-w-lg {
+    max-width: 32rem;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.border-gray-200 {
+    border-color: #e5e7eb;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.p-6 {
+    padding: 1.5rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.text-gray-900 {
+    color: #1f2937;
+}
+
+.dark\:text-white {
+    color: #ffffff;
+}
+
+.bg-gray-50 {
+    background-color: #f9fafb;
+}
+
+.border-gray-300 {
+    border-color: #d1d5db;
+}
+
+.text-gray-900 {
+    color: #1f2937;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.focus\:ring-blue-500:focus {
+    border-color: #3b82f6;
+}
+
+.focus\:border-blue-500:focus {
+    border-color: #3b82f6;
+}
+
+.block {
+    display: block;
+}
+
+.p-2\.5 {
+    padding: 0.625rem;
+}
+
+.dark\:bg-gray-700 {
+    background-color: #ffffff;
+}
+
+.dark\:border-gray-600 {
+    border-color: #4b5563;
+}
+
+.dark\:placeholder-gray-400::placeholder {
+    color: #9ca3af;
+}
+
+.dark\:text-white {
+    color: #000000;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.focus\:outline-none:focus {
+    outline: none;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.bg-blue-600 {
+    background-color: #2563eb;
+}
+
+.hover\:bg-blue-700:hover {
+    background-color: #1d4ed8;
+}
+
+.focus\:ring-4:focus {
+    border-width: 4px;
+}
+
+.focus\:ring-blue-300:focus {
+    outline-color: #93c5fd;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.py-2\.5 {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.dark\:bg-blue-600 {
+    background-color: #2563eb;
+}
+
+.dark\:hover\:bg-blue-700:hover {
+    background-color: #1d4ed8;
+}
+
+.dark\:focus\:ring-blue-800:focus {
+    lighting-color: #1e40af;
+}
+
+@media screen and (min-width: 480px){
+    
+#width1{
+    width: 600px;
+}
+#width2{
+    width: 600px;
+}
+#width3{
+    width: 600px;
+}
+#width4{
+    width: 600px;
+}
+#width0{
+    width: 600px;
+}
+#width5{
+    width: 600px;
+}
+#width6{
+    width: 600px;
+    display: inline;
+}
+.center{
+    
+}
+.width{
+    width: 1000x;
+}
+
+}
+@media screen and (min-width:480px){
+    .mcet-logo{
+        height: 50px;
+        position: relative;
+        bottom: 5px;
+    }
+}
+.mcet-logo{
+    height: 75px;
+}
+.total{
+    position: relative;
+    top: 50px;
+}
+
+.radio-group,
+.checkbox-group {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    gap: 1rem; /* Adjust spacing as needed */
+    flex-wrap: wrap; /* Allows wrapping to the next line if needed */
+}
